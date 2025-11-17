@@ -46,6 +46,7 @@ background-image: url("https://i.pinimg.com/originals/e2/8d/61/e28d61b0ce1b686bb
 display: grid;
 grid-template-columns: 40% 60%;
 gap: 1em;
+background-image: url("https://i.pinimg.com/originals/e2/8d/61/e28d61b0ce1b686bbd9c19b98912101f.gif");
 }
 
 .brand {
