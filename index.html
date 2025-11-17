@@ -9,10 +9,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="index.css">
-  <script src="index.js"></script>
 </head>
 <body>
-  <div class="container">
+  <div class="splash" id="splash">
+      <div>
+        <img src="https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyOWZ0NW94bG53a2Nla2hmdXoxdnV4NnhucDZmY2p1eHR4eTgzOGlwOCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/wwg1suUiTbCY8H8vIA/200w.gif" alt="">
+      </div>
+      <div>
+        <h1>Welcome to my CV</h1>
+      </div>
+  </div>
+  <div id="main-content" style="display:none;">
+    <div class="container">
     <header>
       <div class="brand">
          <img src="https://i.ibb.co/twbPYY9y/IMG-20240612-WA0012.jpg" alt="" class="logo">
@@ -21,10 +29,15 @@
           <div style="font-size:13px;color:var(--muted)">Full‑Stack Developer</div>
         </div>
       </div>
+      <div>
+        <h1 class="welcome" id="animated-text">
+          Welcome to my CV
+        </h1>
+      </div>
       <div class="menu">
       <nav>
-        <a href="#contact_me" class="func" id="btnContact">contact_me()</a>
-        <a href="#projects" class="func" id="btnProjects">projects()</a>
+        <a href="#contact_me" class="func" id="btnContact" style="font-size: 1.5em;">contact_me()</a>
+        <a href="#projects" class="func" id="btnProjects" style="font-size: 1.5em;">projects()</a>
       </nav>
       </div>
     </header>
@@ -54,7 +67,7 @@
                   <div class="info_studies">
                     <img src="https://i.ibb.co/S44M8MY9/nebrija.png" alt="" style="width: 10em;padding: 1em;">
                     <div>
-                      <div class="content-studies"><span class="comment">2 |</span>  &lt; <span class="te">p</span>&gt;  DAM (Cross-platform application development)&lt;<span class="te">/p</span> &gt;</div>
+                      <div class="content-studies"><span class="comment">2 |</span>  &lt; <span class="te">p</span>&gt;  DAM (Cross-platform application development)&lt;/<span class="te"> p</span> &gt;</div>
                       <div  class="content-studies"><span class="comment">3 |</span>  &lt; <span class="te">input</span><span class="js">type</span>= <span class="js">"</span><span class="atex">date</span><span class="js">"</span> <span class="js">value</span> =<span class="js">"</span>2022-09-13<span class="js">"</span></div>
                       <div  class="content-studies"><span class="comment">4 |</span>  &lt; <span class="te">input</span><span class="js">type</span>= <span class="js">"</span><span class="atex">date</span><span class="js">"</span> <span class="js">value</span> =<span class="js">"</span>2024-06-24<span class="js">"</span></div>
                     </div>
@@ -93,8 +106,8 @@
                   <div class="info_studies">
                     <img src="https://i.ibb.co/SDHXPz0G/colon.png" alt="" style="width: 10em;padding: 1em;">
                     <div>
-                      <div class="content-studies"><span class="comment">2 |</span>  &lt; <span class="te">p</span>&gt;  IFCT0109 MF0489_3 Secure data access and transmission systems.&lt;<span class="te">/p</span> &gt;</div>
-                      <div class="content-studies"><span class="comment">3 |</span>  &lt; <span class="te">p</span>&gt;  IFCD0210 MF0491_3 Web devepoling in a client enviroment.&lt;<span class="te">/p</span> &gt;</div>
+                      <div class="content-studies"><span class="comment">2 |</span>  &lt; <span class="te">p</span>&gt;  IFCT0109 MF0489_3 Secure data access and transmission systems.&lt;/<span class="te"> p</span> &gt;</div>
+                      <div class="content-studies"><span class="comment">3 |</span>  &lt; <span class="te">p</span>&gt;  IFCD0210 MF0491_3 Web devepoling in a client enviroment.&lt;/<span class="te"> p</span> &gt;</div>
                       <div  class="content-studies"><span class="comment">4 |</span>  &lt; <span class="te">input</span><span class="js">type</span>= <span class="js">"</span><span class="atex">date</span><span class="js">"</span> <span class="js">value</span> =<span class="js">"</span>2025-10-20<span class="js">"</span></div>
                       <div  class="content-studies"><span class="comment">5 |</span>  &lt; <span class="te">input</span><span class="js">type</span>= <span class="js">"</span><span class="atex">date</span><span class="js">"</span> <span class="js">value</span> =<span class="js">"</span>2026-03-27<span class="js">"</span></div>
                     </div>
@@ -189,5 +202,7 @@
       </div>
     </footer>
   </div>
+  </div>
+    <script src="index.js"></script>
 </body>
 </html>
