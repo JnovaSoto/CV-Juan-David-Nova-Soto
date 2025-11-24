@@ -175,6 +175,11 @@ background-color: rgb(42, 55, 87);
 transition: background-color 1s ease;
 }
 
+.info-column{
+    display: grid;
+    grid-template-columns: auto;
+}
+
 .comment {
 color: rgb(113, 113, 113);
 }
