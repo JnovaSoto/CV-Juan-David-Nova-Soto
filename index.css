@@ -876,4 +876,25 @@ footer {
     padding: var(--spacing-xs);
     font-size: 0.85em;
   }
+}/* ===== FULL WIDTH HEADER AND FOOTER FIX ===== */
+/* Prevent horizontal scroll */
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* Make header full width */
+header {
+    width: 100vw !important;
+    margin-left: calc(50% - 50vw) !important;
+    margin-right: calc(50% - 50vw) !important;
+}
+
+/* Make footer full width and fix positioning */
+footer {
+    width: 100vw !important;
+    margin-left: calc(50% - 50vw) !important;
+    margin-right: calc(50% - 50vw) !important;
+    position: static !important;
+    margin-top: var(--spacing-xl) !important;
 }
